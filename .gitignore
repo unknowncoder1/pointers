@@ -30,3 +30,20 @@
 *.exe
 *.out
 *.app
+
+########################################
+
+# Doxygen output (if any)
+html/
+latex/
+
+# Skip gedit temp files
+*~
+
+# Skip vim temp files
+*.swp
+
+
+# Skip data files (in case they are huge!)
+*.dat
+data/
